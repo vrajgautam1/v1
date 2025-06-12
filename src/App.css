@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Whisper&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.interText{
+    font-family: "inter";
+}
+
+.dmSans{
+    font-family: "DM Sans";
+}
+
+.whisperFont{
+    font-family: "whisper";
+}
+
+*{
+    font-family: "DM Sans";
+}
+
+/* header  */
+
+.glass-header {
+  background: rgba(255, 255, 255, 0.15); /* light glass */
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+}
+
+
+/* homepage */
+
+/* hero section */
+
+.hero-left {
+  max-width: 500px;
+}
+
+.hero-title {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-top: 1rem;
+}
+
+.hero-img {
+  width: 300px;
+  border-radius: 30px;
+}
+
+.hero-img-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-link i {
+  font-size: 1.4rem;
+  color: #333;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon-link:hover i {
+  color: #ff8c00;
+  transform: scale(1.2);
+}
+
+
+/* tech stack  */
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f8f9fa;
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.tech-item i {
+  font-size: 1.2rem;
+}
+
+.tech-item:hover {
+  background-color: #ffeccc;
+  transform: scale(1.05);
+  cursor: default;
+}
+
+.text-purple {
+  color: #6f42c1;
+}
+.text-teal {
+  color: #14b8a6;
+}
+.text-indigo {
+  color: #6610f2;
+}
