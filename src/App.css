@@ -21,12 +21,18 @@
 /* header  */
 
 .glass-header {
-  background: rgba(255, 255, 255, 0.15); /* light glass */
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
 }
+
+.nav-link:hover {
+  color: #fd7e14 !important; /* Bootstrap orange on hover */
+}
+
+.theme-toggle-icon:hover i {
+  color: #ffa500; /* More vivid orange on hover */
+}
+
 
 
 /* homepage */
@@ -102,4 +108,39 @@
 }
 .text-indigo {
   color: #6610f2;
+}
+
+
+/* projects  */
+
+.project-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+}
+
+.live-link {
+  color: #000;
+  transition: color 0.2s ease-in-out;
+}
+
+.live-link:hover {
+  color: #fd7e14; /* orange */
+}
+
+.project-card a.btn:hover {
+  background-color: #fd7e14;
+  border-color: #fd7e14;
+  color: #fff;
+}
+
+.project-card .badge {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.8rem;
+  background-color: #2e2e2e;
 }
